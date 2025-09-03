@@ -3,7 +3,6 @@
 ## Overview
 
 This project is a simulation of an **Operating System’s Memory Management Unit** implementing **paging** with both **main memory** and **swap memory**, along with **page replacement algorithms** (LRU and FIFO).
-It was originally developed as part of *CS3500 – Operating Systems* coursework but extended and polished as a standalone self-learning project.
 
 The system loads executable files, executes them instruction by instruction, manages logical–to–physical address translation, and swaps pages in and out of main memory using the selected replacement algorithm.
 
