@@ -1,0 +1,14 @@
+CXX = g++
+CXXFLAGS =
+TARGETS = lru fifo
+
+all: $(TARGETS)
+
+lru: lru.cpp
+	$(CXX) $(CXXFLAGS) -o lru lru.cpp
+
+fifo: fifo.cpp
+	$(CXX) $(CXXFLAGS) -o fifo fifo.cpp
+
+clean:
+	rm -f $(TARGETS) *.o 
